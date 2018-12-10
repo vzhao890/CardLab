@@ -28,12 +28,17 @@ public class Card
 
     public boolean equals(Card otherCard)
     {
+        if(this.pointValue==otherCard.pointValue)
+        {
+            return true;
+        }
         return false;
     }
 
     public String toString()
     {
-
-        return null;
+        String str="";
+        str=rank+" "+suit+" "+pointValue;
+        return str;
     }
 }
