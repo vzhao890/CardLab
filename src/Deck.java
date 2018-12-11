@@ -4,8 +4,8 @@ public class Deck
 {
     ArrayList<Card> unDealt;
     ArrayList<Card> Dealt;
-    public Deck()
+    public Deck(String[] a,String[] b,int[] c)
     {
-
+        
     }
 }
