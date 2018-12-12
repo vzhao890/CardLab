@@ -4,11 +4,11 @@ public class Card
     private String suit;
     private int pointValue;
 
-    public Card(String rank , String suit, int pointValue)
+    public Card(String a , String b, int c)
     {
-        this.rank = rank;
-        this.suit = suit;
-        this.pointValue = pointValue;
+        rank = a;
+        suit = b;
+        pointValue = c;
     }
 
     public String getRank()
@@ -28,7 +28,7 @@ public class Card
 
     public boolean equals(Card otherCard)
     {
-        if(this.pointValue==otherCard.pointValue)
+        if(this.getpointValue()==otherCard.getpointValue())
         {
             return true;
         }
